@@ -1,0 +1,305 @@
+/* body section */
+
+*body {
+    font-family: serif, 'Times New Roman', Times;
+    font-size: larger;
+    font-style: normal;
+    /* width: fit-content; */
+    background-color: rgba(23, 16, 12, 0);
+    display: inline;
+    margin: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+/* intro. section*/
+
+
+/* logo section */
+
+#logo {
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 120px;
+    margin-left: 10px;
+    background-color: white;
+}
+
+#logo img {
+    float: right;
+    margin-right: 30px;
+    margin-left: 100%;
+}
+
+
+/* logo section ends */
+
+.intro {
+    background-color: #fff;
+    margin: 4px;
+    margin-bottom: 4px;
+    margin-top: 20px;
+    border-bottom: 1px solid rgb(147, 143, 143);
+}
+
+.intro .header {
+    margin-left: 17px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border: 3px solid red;
+    border-radius: 40px;
+}
+
+.text {
+    margin-bottom: 20px;
+}
+
+
+/* p tags section */
+
+p {
+    margin: 20px;
+    margin-bottom: 30px;
+}
+
+.p p {
+    margin-top: 0px;
+    color: green;
+    text-align: center;
+    font-size: small;
+    margin-bottom: 1px;
+}
+
+
+/* h sections */
+
+h4 {
+    margin-left: 20px;
+}
+
+.h1 {
+    float: right;
+    font-weight: 50;
+    margin-left: 100%;
+    margin-right: 30px;
+    margin-bottom: 0px;
+}
+
+.h1 span1 {
+    font-size: 17px;
+    font-weight: 500;
+    float: right;
+    margin-top: 0px;
+    display: inline;
+    margin-right: 2px;
+}
+
+.h1 span2 {
+    margin-top: 0px;
+    margin-right: 1px;
+    float: right;
+    font-size: 15px;
+}
+
+
+/* h section ends */
+
+
+/* address section */
+
+.intro .header .address {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.intro .header img {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+/* LETTER OF INTRODUCTION ENDS */
+
+
+/* INTRO. TABLE SECTION */
+
+.intro .table {
+    margin: 20px;
+    margin-top: 0px;
+    text-size-adjust: space-between;
+}
+
+.intro .table tbody tr {
+    text-align: center;
+    text-align: justify;
+    text-decoration: dashed;
+}
+
+.intro .table tbody tr th {
+    font-size: large;
+    font-weight: 100;
+}
+
+
+/* TABLE SECTION ENDS */
+
+
+/* CERTIFICATE SECTION */
+
+.certificate {
+    display: inline;
+    width: 100px;
+    margin: 20px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100%;
+}
+
+.cert img {
+    width: 100%;
+    margin-top: 20px;
+    height: 550px;
+}
+
+.certificate .firs {
+    margin: 20px;
+    margin-bottom: 10px;
+    float: right;
+    margin-right: 2px;
+    margin-left: 2px;
+}
+
+.certificate .logistics {
+    height: 900px;
+    float: left;
+    margin: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.certificate .agro-vet {
+    float: right;
+    margin-bottom: 20px;
+    margin-right: 2px;
+    margin-left: 20px;
+}
+
+
+/* CERTIFICATE SECTION  ENDS*/
+
+
+/* IMAGE SECTION */
+
+.image {
+    display: inline-block;
+    margin: 5px;
+    margin-top: 20px;
+    position: flex;
+    background-color: black;
+}
+
+.image img {
+    width: 200px;
+    height: 150;
+    margin: 2px;
+}
+
+
+/* IMAGE SECTION ENDS */
+
+
+/* Contact-us section */
+
+.contact-us {
+    margin: 0px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.contact-us h1 {
+    color: #fff;
+    text-align: center;
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-style: oblique;
+    font-weight: 180;
+    line-height: 25px;
+    margin-top: 20px;
+    margin-bottom: 3px;
+    background-color: rgb(131, 130, 130);
+}
+
+
+/* button/ hover section section */
+
+button {
+    width: 120px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    margin-top: 4px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid darkgrey;
+    background: transparent;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+span {
+    background: darkgrey;
+    height: 100%;
+    width: 0%;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+button:hover span {
+    width: 100%;
+}
+
+button :hover {
+    border: none;
+}
+
+.contact-us a {
+    text-decoration: none;
+    color: rgb(30, 26, 26);
+}
+
+.contact-us a:hover {
+    color: #fff;
+}
+
+
+/*footer section */
+
+footer {
+    text-align: center;
+    background-color: rgb(131, 130, 130);
+    height: 30px;
+    margin-bottom: 0px;
+    border-radius: 5px;
+}
+
+footer p {
+    position: relative;
+    font-style: oblique;
+    margin-bottom: 3px;
+    color: #fff;
+}
+
+
+/* pPhoto's swip section */
